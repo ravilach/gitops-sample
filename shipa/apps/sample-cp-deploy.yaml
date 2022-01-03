@@ -5,4 +5,6 @@ metadata:
 spec:
   forProvider:
     app: bambooportal
-    image: "ghcr.io/podtato-head/podtatoserver:v0.1.1"
+    image: "docker.io/wordpress"
+
+# ghcr.io/podtato-head/podtatoserver:v0.1.1
