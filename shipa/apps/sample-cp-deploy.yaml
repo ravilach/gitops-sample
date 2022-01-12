@@ -4,7 +4,8 @@ metadata:
   name: deploy-of-portal-application
 spec:
   forProvider:
-    app: bambooportal
-    image: "ghcr.io/podtato-head/podtatoserver:v0.1.1"
+    app: portal
+    image: "docker.io/wordpress"
 
 # ghcr.io/podtato-head/podtatoserver:v0.1.1
+# docker.io/wordpress
