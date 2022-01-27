@@ -5,7 +5,7 @@ metadata:
 spec:
   forProvider:
     app: tf-deployed-app
-    image: "docker.io/shipasoftware/bulletinboard:1.0"
+    image: "ghcr.io/podtato-head/podtatoserver:v0.1.1"
 
 # ghcr.io/podtato-head/podtatoserver:v0.1.1
 # docker.io/wordpress
