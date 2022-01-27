@@ -1,4 +1,4 @@
-apiVersion: shipa.crossplane.io/v1alpha1
+apiVersion: shipa.io/v1alpha1
 kind: AppDeploy
 metadata:
   name: deploy-of-portal-application
