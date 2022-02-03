@@ -1,7 +1,7 @@
 apiVersion: shipa.crossplane.io/v1alpha1
 kind: Framework
 metadata:
-  name: project1
+  name: cp-created-framework
 spec:
   forProvider:
     shipaFramework: cp-created-framework
