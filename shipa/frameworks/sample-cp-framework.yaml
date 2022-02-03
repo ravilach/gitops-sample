@@ -1,4 +1,3 @@
-
 apiVersion: shipa.crossplane.io/v1alpha1
 kind: Framework
 metadata:
