@@ -1,0 +1,24 @@
+
+apiVersion: shipa.crossplane.io/v1alpha1
+kind: Framework
+metadata:
+  name: project1
+spec:
+  forProvider:
+    shipaFramework: cp-created-framework
+    resources:
+      general:
+        setup:
+          provisioner: kubernetes
+        router: nginx
+        appQuota:
+          limit: "4"
+        security:
+          disableScan: true
+          scanPlatformLayers: false
+        networkPolicy:
+          ingress:
+            policy_mode: allow-all
+          egress:
+            policy_mode: allow-all
+          disableAppPolicies: false
