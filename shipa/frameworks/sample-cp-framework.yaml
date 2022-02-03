@@ -10,8 +10,8 @@ spec:
         setup:
           provisioner: kubernetes
         router: nginx
-        appQuota:
-          limit: "4"
+        access:
+          append: ["shipa-admin-team"]
         security:
           disableScan: true
           scanPlatformLayers: false
