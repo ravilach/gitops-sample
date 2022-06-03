@@ -1,11 +1,11 @@
 apiVersion: shipa.crossplane.io/v1alpha1
 kind: AppDeploy
 metadata:
-  name: deploy-of-portal-application
+  name: deploy-of-some-application
 spec:
   forProvider:
-    app: tf-deployed-app
-    image: "docker.io/shipasoftware/bulletinboard:xxxx"
+    app: crossplane-deployed-app
+    image: "docker.io/shipasoftware/bulletinboard:1.0"
 
 # ghcr.io/podtato-head/podtatoserver:v0.1.1
 # docker.io/wordpress
